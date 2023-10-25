@@ -1,0 +1,70 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyO+DYirPexOKWHga17ubiff",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/carolpeixoto1/novo_projeto/blob/main/comparativo%20em%20phython\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RL7ox7kWSJ5c",
+        "outputId": "793ee851-cc9c-418a-a297-3333d9882ca5"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite um numero:10\n",
+            "digite o segundo numero:10\n",
+            "O número 10 é igual a 10\n"
+          ]
+        }
+      ],
+      "source": [
+        "num1= input(\"digite um numero:\")\n",
+        "num1=int(num1)\n",
+        "\n",
+        "num2 = input(\"digite o segundo numero:\")\n",
+        "num2=int(num2)\n",
+        "\n",
+        "if(num1==num2):\n",
+        "   print(\"O número %d é igual a %d\" %(num1,num2))\n",
+        "if(num1!=num2):\n",
+        "   print(\"O número %d é diferente de %d\" %(num1,num2))\n",
+        "if (num1<num2):\n",
+        "  print(\"O número %d é menor que %D\" %(num1.num2))\n",
+        "if(num1<num2):\n",
+        "  print(\"O número %d é maior que %d\" %(num1,num2))\n",
+        "\n",
+        "\n"
+      ]
+    }
+  ]
+}
