@@ -1,0 +1,61 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPR24xUpot4I5XlMruUtueG",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/carolpeixoto1/novo_projeto/blob/main/treinando%20try\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 9,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "uhSdXt5m_RUW",
+        "outputId": "25112883-8551-4bbf-f9e1-460e9d51ff89"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "insira um numero\n",
+            "casa\n",
+            "não foi digitado um numero \n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"insira um numero\")\n",
+        "try:\n",
+        "  valor = int(input())\n",
+        "  valor = valor+5\n",
+        "  print(\"o valor digitado + 5 e igual a...\"+ str(valor))\n",
+        "except:\n",
+        "      print(\"não foi digitado um numero \")"
+      ]
+    }
+  ]
+}
